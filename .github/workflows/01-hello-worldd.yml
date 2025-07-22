@@ -6,3 +6,27 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - name: Send Email Notification
+        uses: 
+        with:
+          server_address: 
+          server_port:
+          username:
+          passwor:
+          subject:
+          to:
+          from:
+          body: | 
+           hello,
+
+           The GitHub Actionpipelinehas completed.
+
+           Status: 
+           job Name:
+           Triggred by:
+           Repository:
+           Commit Message:
+
+           Regards,
+           GithHubActions Bot
+           
